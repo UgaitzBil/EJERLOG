@@ -1,7 +1,11 @@
 package principal;
 import menu.Menu;
 import operaciones.Operaciones;
-
+/**
+ * 
+ * @author ugaitz
+ *
+ */
 public class Calculadora{
     public static void main(String[] args) {   
         int resultado = 0;
@@ -31,7 +35,7 @@ public class Calculadora{
                 resultado = operaciones.resto(operandos[0], operandos[1]);
                 System.out.println ("Resultado: " + resultado);
             } else {
-                System.out.println ("Operación no válida");
+                System.out.println ("Operaciï¿½n no vï¿½lida");
             }
         }   while (menu.repetir());
     }
